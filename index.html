@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MAKELYR — Imagine It. We Print It.</title>
+  <meta name="description" content="MAKELYR creates personalised gifts, home décor, miniatures, toys, prototypes, functional parts and custom 3D creations across India.">
+  <meta name="theme-color" content="#0b0b0e">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="MAKELYR home">
+      <img src="assets/logo.svg" alt="MAKELYR logo">
+      <span>MAKELYR</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#shop">Shop</a>
+      <a href="#custom">Custom</a>
+      <a href="#how">How It Works</a>
+      <a href="#about">Our Story</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-cta" href="https://wa.me/918296471867?text=Hi%20MAKELYR%2C%20I%27d%20like%20to%20know%20more%20about%20your%203D%20creations." target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">3D CREATIONS • CUSTOM MADE • INDIA-WIDE</p>
+        <h1>Imagine it.<br><span>We print it.</span></h1>
+        <p class="lead">From a thought in your mind to something you can actually hold. MAKELYR turns ideas into personalised, functional and wonderfully unexpected 3D creations.</p>
+        <div class="actions">
+          <a class="button primary" href="#shop">Explore creations</a>
+          <a class="button secondary" href="#custom">Create something custom</a>
+        </div>
+        <div class="trust-row">
+          <span>✦ Made to order</span><span>✦ Custom designs</span><span>✦ Pan-India delivery</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative 3D printing visual">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="cube"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="floating-tag tag-a">YOUR IDEA</div>
+        <div class="floating-tag tag-b">+ MAKELYR</div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Brand statement">
+      <div>IDEAS → DESIGN → LAYERS → OBJECTS → <b>BEYOND</b> → IDEAS → DESIGN → LAYERS → OBJECTS → <b>BEYOND</b> →</div>
+    </section>
+
+    <section id="shop" class="section">
+      <div class="section-head">
+        <div><p class="eyebrow">THE MAKELYR COLLECTION</p><h2>Made for the ideas you can't find <em>on a shelf.</em></h2></div>
+        <p>These are demo products for now. Replace them with your real products, photos and prices when you're ready.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Product categories">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="gifts">Gifts</button>
+        <button class="filter" data-filter="decor">Décor</button>
+        <button class="filter" data-filter="miniatures">Miniatures</button>
+        <button class="filter" data-filter="functional">Functional</button>
+      </div>
+      <div class="products" id="products">
+        <article class="product-card" data-category="gifts">
+          <div class="product-visual visual-one"><span>PERSONAL</span></div>
+          <div class="product-info"><p class="product-type">PERSONALISED GIFT</p><h3>Nameplate / Desk Sign</h3><p>Custom name, text or message made to order.</p><div class="product-bottom"><strong>Demo price</strong><button class="small-button" onclick="order('Nameplate / Desk Sign')">Enquire</button></div></div>
+        </article>
+        <article class="product-card" data-category="decor">
+          <div class="product-visual visual-two"><span>FORM</span></div>
+          <div class="product-info"><p class="product-type">HOME DÉCOR</p><h3>Statement Sculpture</h3><p>A modern 3D accent designed to stand out.</p><div class="product-bottom"><strong>Demo price</strong><button class="small-button" onclick="order('Statement Sculpture')">Enquire</button></div></div>
+        </article>
+        <article class="product-card" data-category="miniatures">
+          <div class="product-visual visual-three"><span>MINI</span></div>
+          <div class="product-info"><p class="product-type">MINIATURE</p><h3>Custom Mini Figure</h3><p>Turn a character, person or idea into a tiny keepsake.</p><div class="product-bottom"><strong>Demo price</strong><button class="small-button" onclick="order('Custom Mini Figure')">Enquire</button></div></div>
+        </article>
+        <article class="product-card" data-category="functional">
+          <div class="product-visual visual-four"><span>USEFUL</span></div>
+          <div class="product-info"><p class="product-type">FUNCTIONAL</p><h3>Custom Organiser</h3><p>Designed around your space, dimensions and needs.</p><div class="product-bottom"><strong>Demo price</strong><button class="small-button" onclick="order('Custom Organiser')">Enquire</button></div></div>
+        </article>
+        <article class="product-card" data-category="gifts">
+          <div class="product-visual visual-five"><span>COUPLE</span></div>
+          <div class="product-info"><p class="product-type">COUPLE GIFT</p><h3>Personalised Keepsake</h3><p>A made-for-you piece for anniversaries and special moments.</p><div class="product-bottom"><strong>Demo price</strong><button class="small-button" onclick="order('Personalised Keepsake')">Enquire</button></div></div>
+        </article>
+        <article class="product-card" data-category="functional">
+          <div class="product-visual visual-six"><span>PROTOTYPE</span></div>
+          <div class="product-info"><p class="product-type">PROTOTYPE</p><h3>Idea to Prototype</h3><p>Fast concept models and functional parts for testing.</p><div class="product-bottom"><strong>Quote required</strong><button class="small-button" onclick="order('Prototype / Functional Part')">Get quote</button></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="custom" class="custom-section">
+      <div class="custom-copy">
+        <p class="eyebrow">HAVE AN IDEA?</p>
+        <h2>Don't know how to make it.<br><span>That's where we come in.</span></h2>
+        <p>Upload your design, share a photo, or simply describe what you have in mind. We'll help turn the idea into a printable creation and give you a quote before production.</p>
+        <div class="custom-steps"><div><b>01</b><span>Share your idea</span></div><div><b>02</b><span>We review & quote</span></div><div><b>03</b><span>We print it</span></div><div><b>04</b><span>We deliver</span></div></div>
+      </div>
+      <form class="quote-form" id="quoteForm">
+        <h3>Request a custom quote</h3>
+        <label>Name<input required name="name" placeholder="Your name"></label>
+        <label>WhatsApp number<input required name="phone" type="tel" placeholder="+91"></label>
+        <label>What do you want made?<textarea required name="idea" rows="4" placeholder="Tell us about your idea, size, quantity, colour, etc."></textarea></label>
+        <label>Upload design / photo<input name="file" type="file" accept="image/*,.stl,.obj,.3mf,.step,.stp,.pdf"></label>
+        <p class="form-note">For now, the form prepares a WhatsApp enquiry. A production-ready upload/quote backend can be connected after your domain and hosting are set up.</p>
+        <button class="button primary" type="submit">Send on WhatsApp →</button>
+      </form>
+    </section>
+
+    <section id="how" class="section process-section">
+      <div class="section-head"><div><p class="eyebrow">HOW IT WORKS</p><h2>From thought to tangible.</h2></div></div>
+      <div class="process-grid">
+        <div class="process"><span>01</span><h3>Imagine</h3><p>Tell us what you want to create, even if you don't know the technical details.</p></div>
+        <div class="process"><span>02</span><h3>Design</h3><p>We work from your file, photo, reference or description and confirm the requirements.</p></div>
+        <div class="process"><span>03</span><h3>Print</h3><p>Your creation comes to life layer by layer with attention to fit, finish and function.</p></div>
+        <div class="process"><span>04</span><h3>Deliver</h3><p>Pick it up locally or get it shipped anywhere across India.</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="story-section">
+      <div class="story-label"><p class="eyebrow">OUR STORY</p><div class="big-mark">M<span>•</span></div></div>
+      <div class="story-copy">
+        <h2>We don't just print objects.<br><span>We make ideas tangible.</span></h2>
+        <p>It all began with a simple dream to build something of our own that mattered. That dream took shape in the most unexpected way—through the magic of 3D printing.</p>
+        <p>One evening, while exploring the possibilities of this technology, a spark of curiosity became a powerful question: <em>What if we could help others bring their wildest creations to life?</em></p>
+        <p>That question became our mission. Today, our studio is a creative workshop where innovation meets craftsmanship, and where every print tells a story.</p>
+        <div class="founders"><span>Srinidhi Raju</span><i>×</i><span>Veena</span></div>
+      </div>
+    </section>
+
+    <section class="cta-strip">
+      <p>HAVE SOMETHING IN MIND?</p><h2>Let's make it <em>real.</em></h2><a class="button light" href="#custom">Start a custom order →</a>
+    </section>
+
+    <section id="faq" class="section faq-section">
+      <div class="section-head"><div><p class="eyebrow">QUESTIONS, ANSWERED</p><h2>FAQ</h2></div></div>
+      <div class="faq">
+        <details><summary>Can I send my own 3D design?</summary><p>Yes. You can share compatible design files or references. We'll review the file and confirm printability, size, material and pricing before production.</p></details>
+        <details><summary>Can you create a model from a photo?</summary><p>We can review your photo/reference and tell you what is possible. Some projects may require additional design or modelling work.</p></details>
+        <details><summary>Do you ship across India?</summary><p>Yes. Local delivery and pickup are also available in Bengaluru, subject to the final order and delivery arrangement.</p></details>
+        <details><summary>Can I order a functional part or prototype?</summary><p>Yes. Share the dimensions, reference, existing part or design and intended use. We'll review the requirements and quote accordingly.</p></details>
+        <details><summary>How do custom prices work?</summary><p>Custom pricing depends on design complexity, material, size, print time, quantity, finishing and shipping. We provide a quote before production.</p></details>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div><p class="eyebrow">LET'S TALK</p><h2>Have an idea?<br><em>We'd love to hear it.</em></h2></div>
+      <div class="contact-card"><p>WhatsApp</p><a href="https://wa.me/918296471867" target="_blank" rel="noopener">+91 82964 71867</a><p>Email</p><a href="mailto:helloorderscustom@makelyr.com">helloorderscustom@makelyr.com</a><p>Based in</p><span>HSR Layout, Bengaluru, Karnataka</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><img src="assets/logo.svg" alt=""><strong>MAKELYR</strong><span>Imagine It. We Print It.</span></div>
+    <div class="footer-links"><a href="#privacy">Privacy</a><a href="#terms">Terms</a><a href="#shipping">Shipping</a><a href="#refunds">Cancellation & Refunds</a><a href="https://www.instagram.com/thebeyondlayers/" target="_blank" rel="noopener">Instagram</a></div>
+    <p class="copyright">© <span id="year"></span> MAKELYR. All rights reserved.</p>
+  </footer>
+
+  <div class="legal-modal" id="privacy"><div class="legal-box"><button onclick="closeLegal()">×</button><h2>Privacy Policy — Draft</h2><p>This draft is a starting point for MAKELYR and should be reviewed and finalized for your actual business, payment gateway, hosting provider and applicable Indian privacy/e-commerce requirements.</p><h3>Information we may collect</h3><p>We may collect your name, phone number, email, delivery details, order information, uploaded designs/photos and payment/order references when you use our services.</p><h3>How we use it</h3><p>To respond to enquiries, prepare quotations, process orders, arrange delivery, provide support and improve our services.</p><h3>Uploaded designs</h3><p>We use customer-provided files only as needed to evaluate, design, manufacture and fulfil the requested order, subject to the final terms you publish.</p><h3>Contact</h3><p>helloorderscustom@makelyr.com</p></div></div>
+  <div class="legal-modal" id="terms"><div class="legal-box"><button onclick="closeLegal()">×</button><h2>Terms & Conditions — Draft</h2><p>Orders are confirmed only after requirements, price, delivery expectations and any design charges are accepted. Custom products may not be returnable where permitted by applicable law because they are made to customer specifications. Final terms should be reviewed before publishing.</p><p>Customers are responsible for having the rights or permissions needed for files, logos, characters, photos and other content they provide to MAKELYR.</p></div></div>
+  <div class="legal-modal" id="shipping"><div class="legal-box"><button onclick="closeLegal()">×</button><h2>Shipping & Delivery — Draft</h2><p>MAKELYR intends to offer local pickup, local delivery and shipping across India. Delivery times and shipping charges will depend on product, quantity, production time, destination and courier availability and will be communicated before order confirmation.</p></div></div>
+  <div class="legal-modal" id="refunds"><div class="legal-box"><button onclick="closeLegal()">×</button><h2>Cancellation & Refunds — Draft</h2><p>Because many MAKELYR products are custom-made, cancellation and refund eligibility may depend on whether production or design work has begun. The final policy should clearly state exceptions, damaged-in-transit procedures, refund timelines and applicable consumer-law requirements.</p></div></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
